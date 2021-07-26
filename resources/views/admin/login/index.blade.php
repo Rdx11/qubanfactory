@@ -11,22 +11,22 @@
     <link rel="shortcut icon" type="image/x-icon" href="app-assets/images/ico/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600" rel="stylesheet">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/vendors/css/vendors.min.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/vendors/css/extensions/toastr.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/vendors/css/vendors.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/vendors/css/extensions/toastr.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/bootstrap.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/bootstrap-extended.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/colors.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/components.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/themes/dark-layout.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/themes/semi-dark-layout.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/bootstrap.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/bootstrap-extended.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/colors.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/components.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/themes/dark-layout.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/themes/semi-dark-layout.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/core/menu/menu-types/horizontal-menu.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/core/colors/palette-gradient.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/pages/authentication.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/core/menu/menu-types/horizontal-menu.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/core/colors/palette-gradient.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/pages/authentication.css') }}">
 
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/assets/css/style.css') }}">
-    <link rel="stylesheet" type="text/css" href="{{ asset('admin/app-assets/css/plugins/extensions/toastr.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/assets/css/style.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ secure_asset('admin/app-assets/css/plugins/extensions/toastr.css') }}">
 
 </head>
 
@@ -95,17 +95,17 @@
         </div>
     </div>
 
-    <script src="{{ asset('admin/app-assets/vendors/js/vendors.min.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/vendors/js/vendors.min.js') }}"></script>
 
-    <script src="{{ asset('admin/app-assets/vendors/js/ui/jquery.sticky.js') }}"></script>
-    <script src="{{ asset('admin/app-assets/vendors/js/extensions/toastr.min.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/vendors/js/ui/jquery.sticky.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/vendors/js/extensions/toastr.min.js') }}"></script>
 
-    <script src="{{ asset('admin/app-assets/js/core/app-menu.js') }}"></script>
-    <script src="{{ asset('admin/app-assets/js/core/app.js') }}"></script>
-    <script src="{{ asset('admin/app-assets/js/scripts/components.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/js/core/app-menu.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/js/core/app.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/js/scripts/components.js') }}"></script>
 
-    <script src="{{ asset('admin/app-assets/js/core/core.js') }}"></script>
-    <script src="{{ asset('admin/app-assets/js/scripts/extensions/toastr.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/js/core/core.js') }}"></script>
+    <script src="{{ secure_asset('admin/app-assets/js/scripts/extensions/toastr.js') }}"></script>
 
     <script>
         $(document).ready(function() {
