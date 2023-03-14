@@ -1,2 +1,2 @@
 <?php
-echo "ini page aqiqah";
+echo "ini page aqiqoh";
